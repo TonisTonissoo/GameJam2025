@@ -12,6 +12,7 @@ public class MainMenuController : MonoBehaviour
     public void OnSettingsButtonClicked()
     {
         Debug.Log("Settings button clicked");
+        SceneManager.LoadScene("Settings");
     }
     public void OnExitButtonClicked()
     {
