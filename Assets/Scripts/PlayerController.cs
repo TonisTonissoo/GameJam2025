@@ -10,6 +10,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float fallDamageThreshold = -15f;  // Kiirus millest allpool saab damage
     [SerializeField] private float lethalFallThreshold = -25f;   // Kiirus millest allpool sureb
 
+    [Header("Health Settings")]
+    [SerializeField] private int maxHealth = 3;   // mitu elu on maksimaalselt
+    private int currentHealth;
+
+    [Header("Respawn Settings")]
+    [SerializeField] private Transform respawnPoint;
+
+
     private Rigidbody2D rb;
     private bool isGrounded;
     private float fallVelocity;
@@ -17,6 +25,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -63,16 +72,33 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = false;
     }
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= amount;
+        Debug.Log($"Player took {amount} damage. Health: {currentHealth}/{maxHealth}");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
 
     private void TakeFallDamage()
     {
         Debug.Log($"Player took fall damage (velocity: {fallVelocity})");
-        // Tulevikus lisa HP vähendamine või stun siia
+        TakeDamage(1);
     }
 
     private void Die()
     {
         Debug.Log($"Player died from fall (velocity: {fallVelocity})");
-        // Tulevikus lisa respawn või game over siia
+        transform.position = respawnPoint.position;
+        currentHealth = maxHealth;
+        Camera.main.transform.position = new Vector3(
+        respawnPoint.position.x,
+        respawnPoint.position.y,
+        Camera.main.transform.position.z
+        );
+
     }
 }

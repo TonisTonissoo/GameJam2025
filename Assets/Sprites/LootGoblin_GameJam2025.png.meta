@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: f13cee7a73aa23a40a50c888b4a82237
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8623651846016193037
+    second: LootGoblin_GameJam2025_0
+  - first:
+      213: -4196635788452257661
+    second: LootGoblin_GameJam2025_1
+  - first:
+      213: 5269831941234264694
+    second: LootGoblin_GameJam2025_2
+  - first:
+      213: 2887420427596082390
+    second: LootGoblin_GameJam2025_3
+  - first:
+      213: 7902635668407721002
+    second: LootGoblin_GameJam2025_4
+  - first:
+      213: 8064534525395473955
+    second: LootGoblin_GameJam2025_5
+  - first:
+      213: -4048339723961221015
+    second: LootGoblin_GameJam2025_6
+  - first:
+      213: 8702623935848256529
+    second: LootGoblin_GameJam2025_7
+  - first:
+      213: -574568779052790007
+    second: LootGoblin_GameJam2025_8
+  - first:
+      213: 1100558213295430093
+    second: LootGoblin_GameJam2025_9
+  - first:
+      213: -3556020518691814178
+    second: LootGoblin_GameJam2025_10
+  - first:
+      213: -973262834622760850
+    second: LootGoblin_GameJam2025_11
+  - first:
+      213: -1865491812932906040
+    second: LootGoblin_GameJam2025_12
+  - first:
+      213: 6737641766250203035
+    second: LootGoblin_GameJam2025_13
+  - first:
+      213: 6136484303588157551
+    second: LootGoblin_GameJam2025_14
+  - first:
+      213: 1492115290028620735
+    second: LootGoblin_GameJam2025_15
+  - first:
+      213: -2836772015546079141
+    second: LootGoblin_GameJam2025_16
+  - first:
+      213: 8068339708718944421
+    second: LootGoblin_GameJam2025_17
+  - first:
+      213: -4384426110691053818
+    second: LootGoblin_GameJam2025_18
+  - first:
+      213: 7139528598910060286
+    second: LootGoblin_GameJam2025_19
+  - first:
+      213: 5417484701707099837
+    second: LootGoblin_GameJam2025_20
+  - first:
+      213: 1952540641405159135
+    second: LootGoblin_GameJam2025_21
+  - first:
+      213: 2609948720565771378
+    second: LootGoblin_GameJam2025_22
+  - first:
+      213: -1721914663842182005
+    second: LootGoblin_GameJam2025_23
+  - first:
+      213: 8556844262723417844
+    second: LootGoblin_GameJam2025_24
+  - first:
+      213: 2979296069817188481
+    second: LootGoblin_GameJam2025_25
+  - first:
+      213: 5800950192961221751
+    second: LootGoblin_GameJam2025_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02df64f9ad5da770800000000000000
+      internalID: 8623651846016193037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380ac913cfd82c5c0800000000000000
+      internalID: -4196635788452257661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a8643da34322940800000000000000
+      internalID: 5269831941234264694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc2218a49d221820800000000000000
+      internalID: 2887420427596082390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 144
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c16cc354dcbad60800000000000000
+      internalID: 7902635668407721002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32612115c6bfaef60800000000000000
+      internalID: 8064534525395473955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 144
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9604037587861d7c0800000000000000
+      internalID: -4048339723961221015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1141c067c5ee5c870800000000000000
+      internalID: 8702623935848256529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 144
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f47895db8b608f0800000000000000
+      internalID: -574568779052790007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9dc1e2dd7f54f00800000000000000
+      internalID: 1100558213295430093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 145
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4cf59cd2a76aec0800000000000000
+      internalID: -3556020518691814178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e687835cb964e72f0800000000000000
+      internalID: -973262834622760850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c31cb674117c16e0800000000000000
+      internalID: -1865491812932906040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 130
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97cd252d79e08d50800000000000000
+      internalID: 6737641766250203035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68e12d26fb292550800000000000000
+      internalID: 6136484303588157551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 99
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbb51263fe05b410800000000000000
+      internalID: 1492115290028620735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 99
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b586b98b1e2c1a8d0800000000000000
+      internalID: -2836772015546079141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 114
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a01f59973088ff60800000000000000
+      internalID: 8068339708718944421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fef489ea36723c0800000000000000
+      internalID: -4384426110691053818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 114
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6c6c11f63b41360800000000000000
+      internalID: 7139528598910060286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 93
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe5d5512a5ce2b40800000000000000
+      internalID: 5417484701707099837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 114
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6c77c4e51d81b10800000000000000
+      internalID: 1952540641405159135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_22
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cde438886683420800000000000000
+      internalID: 2609948720565771378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c86208cb78a18e0800000000000000
+      internalID: -1721914663842182005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 84
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6f7f5558400c670800000000000000
+      internalID: 8556844262723417844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180cb229df5985920800000000000000
+      internalID: 2979296069817188481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootGoblin_GameJam2025_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 85
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774ff2b377d118050800000000000000
+      internalID: 5800950192961221751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LootGoblin_GameJam2025_0: 8623651846016193037
+      LootGoblin_GameJam2025_1: -4196635788452257661
+      LootGoblin_GameJam2025_10: -3556020518691814178
+      LootGoblin_GameJam2025_11: -973262834622760850
+      LootGoblin_GameJam2025_12: -1865491812932906040
+      LootGoblin_GameJam2025_13: 6737641766250203035
+      LootGoblin_GameJam2025_14: 6136484303588157551
+      LootGoblin_GameJam2025_15: 1492115290028620735
+      LootGoblin_GameJam2025_16: -2836772015546079141
+      LootGoblin_GameJam2025_17: 8068339708718944421
+      LootGoblin_GameJam2025_18: -4384426110691053818
+      LootGoblin_GameJam2025_19: 7139528598910060286
+      LootGoblin_GameJam2025_2: 5269831941234264694
+      LootGoblin_GameJam2025_20: 5417484701707099837
+      LootGoblin_GameJam2025_21: 1952540641405159135
+      LootGoblin_GameJam2025_22: 2609948720565771378
+      LootGoblin_GameJam2025_23: -1721914663842182005
+      LootGoblin_GameJam2025_24: 8556844262723417844
+      LootGoblin_GameJam2025_25: 2979296069817188481
+      LootGoblin_GameJam2025_26: 5800950192961221751
+      LootGoblin_GameJam2025_3: 2887420427596082390
+      LootGoblin_GameJam2025_4: 7902635668407721002
+      LootGoblin_GameJam2025_5: 8064534525395473955
+      LootGoblin_GameJam2025_6: -4048339723961221015
+      LootGoblin_GameJam2025_7: 8702623935848256529
+      LootGoblin_GameJam2025_8: -574568779052790007
+      LootGoblin_GameJam2025_9: 1100558213295430093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
