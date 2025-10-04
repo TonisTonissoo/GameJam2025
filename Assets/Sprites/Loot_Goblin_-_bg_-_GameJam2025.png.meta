@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 7bedff468f3fb4f4db5a4e949719da9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5473270608792613002
+    second: Loot_Goblin_-_bg_-_GameJam2025_0
+  - first:
+      213: -4238214849488691899
+    second: Loot_Goblin_-_bg_-_GameJam2025_1
+  - first:
+      213: 1396309436709578305
+    second: Loot_Goblin_-_bg_-_GameJam2025_2
+  - first:
+      213: 8831226566189585943
+    second: Loot_Goblin_-_bg_-_GameJam2025_3
+  - first:
+      213: 401333069732202851
+    second: Loot_Goblin_-_bg_-_GameJam2025_4
+  - first:
+      213: -7078756294804994255
+    second: Loot_Goblin_-_bg_-_GameJam2025_5
+  - first:
+      213: -6140965335981671479
+    second: Loot_Goblin_-_bg_-_GameJam2025_6
+  - first:
+      213: 6629288661903070475
+    second: Loot_Goblin_-_bg_-_GameJam2025_7
+  - first:
+      213: 7739270426980426383
+    second: Loot_Goblin_-_bg_-_GameJam2025_8
+  - first:
+      213: 6145747431233297135
+    second: Loot_Goblin_-_bg_-_GameJam2025_9
+  - first:
+      213: 6952357782976786389
+    second: Loot_Goblin_-_bg_-_GameJam2025_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 34
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f845341690b04b0800000000000000
+      internalID: -5473270608792613002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 34
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dd076ac06de25c0800000000000000
+      internalID: -4238214849488691899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 34
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146a993e800b06310800000000000000
+      internalID: 1396309436709578305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 19
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71619b8a5c1de8a70800000000000000
+      internalID: 8831226566189585943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3694102fc42d19500800000000000000
+      internalID: 401333069732202851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 19
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137869c97a433cd90800000000000000
+      internalID: -7078756294804994255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb33da2098e6caa0800000000000000
+      internalID: -6140965335981671479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05d14e1ae6fffb50800000000000000
+      internalID: 6629288661903070475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 4
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82aadce279676b60800000000000000
+      internalID: 7739270426980426383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea1ee52ab41a4550800000000000000
+      internalID: 6145747431233297135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loot_Goblin_-_bg_-_GameJam2025_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfe0c5819cbb7060800000000000000
+      internalID: 6952357782976786389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Loot_Goblin_-_bg_-_GameJam2025_0: -5473270608792613002
+      Loot_Goblin_-_bg_-_GameJam2025_1: -4238214849488691899
+      Loot_Goblin_-_bg_-_GameJam2025_10: 6952357782976786389
+      Loot_Goblin_-_bg_-_GameJam2025_2: 1396309436709578305
+      Loot_Goblin_-_bg_-_GameJam2025_3: 8831226566189585943
+      Loot_Goblin_-_bg_-_GameJam2025_4: 401333069732202851
+      Loot_Goblin_-_bg_-_GameJam2025_5: -7078756294804994255
+      Loot_Goblin_-_bg_-_GameJam2025_6: -6140965335981671479
+      Loot_Goblin_-_bg_-_GameJam2025_7: 6629288661903070475
+      Loot_Goblin_-_bg_-_GameJam2025_8: 7739270426980426383
+      Loot_Goblin_-_bg_-_GameJam2025_9: 6145747431233297135
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

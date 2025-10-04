@@ -6,7 +6,7 @@ public class MainMenuController : MonoBehaviour
     public void OnPlayButtonClicked()
     {
         Debug.Log("Play button clicked");
-        //SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Level1");
     }
 
     public void OnSettingsButtonClicked()
@@ -17,6 +17,6 @@ public class MainMenuController : MonoBehaviour
     public void OnExitButtonClicked()
     {
         Debug.Log("Game exiting...");
-        //Application.Quit();
+        Application.Quit();
     }
 }
