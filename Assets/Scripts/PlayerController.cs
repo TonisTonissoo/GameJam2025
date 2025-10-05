@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -22,6 +23,12 @@ public class PlayerController : MonoBehaviour
 
     private int jumpCount = 0;
 
+    [Header("UI Settings")]
+    [SerializeField] private Transform livesPanel;   // UI kontainer südameikoonidele
+    [SerializeField] private GameObject heartPrefab;
+
+
+    private List<GameObject> heartIcons = new List<GameObject>();
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -33,6 +40,31 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         anim = GetComponent<Animator>();
+
+        SetupHeartsUI();
+    }
+
+    private void SetupHeartsUI()
+    {
+        // Tühjenda vanad
+        foreach (Transform child in livesPanel)
+            Destroy(child.gameObject);
+        heartIcons.Clear();
+
+        // Loo südamed vastavalt maxHealthile
+        for (int i = 0; i < maxHealth; i++)
+        {
+            GameObject heart = Instantiate(heartPrefab, livesPanel);
+            heartIcons.Add(heart);
+        }
+    }
+
+    private void UpdateHeartsUI()
+    {
+        for (int i = 0; i < heartIcons.Count; i++)
+        {
+            heartIcons[i].SetActive(i < currentHealth);
+        }
     }
 
     private void Update()
@@ -102,6 +134,8 @@ public class PlayerController : MonoBehaviour
         currentHealth -= amount;
         Debug.Log($"Player took {amount} damage. Health: {currentHealth}/{maxHealth}");
 
+        UpdateHeartsUI();
+
         if (currentHealth <= 0)
         {
             Die();
@@ -119,6 +153,8 @@ public class PlayerController : MonoBehaviour
         Debug.Log($"Player died");
         transform.position = respawnPoint.position;
         currentHealth = maxHealth;
+
+        UpdateHeartsUI();
         Camera.main.transform.position = new Vector3(
         respawnPoint.position.x,
         respawnPoint.position.y,
