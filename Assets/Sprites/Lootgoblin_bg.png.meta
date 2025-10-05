@@ -187,6 +187,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Lootgoblin_bg_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9667ab10bb550e4a8b59e7ce14684b7
+      internalID: 913991342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -205,6 +227,7 @@ TextureImporter:
       Lootgoblin_bg_1: -924028248
       Lootgoblin_bg_2: -1933905329
       Lootgoblin_bg_3: 1794383301
+      Lootgoblin_bg_4: 913991342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

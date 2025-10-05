@@ -17,6 +17,11 @@ public class PlayerController : MonoBehaviour
     [Header("Respawn Settings")]
     [SerializeField] private Transform respawnPoint;
 
+    [Header("Jump Settings")]
+    [SerializeField] private int maxJumps = 2;    // mitu hüpet max (1 = tavaline, 2 = double jump)
+
+    private int jumpCount = 0;
+
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -45,10 +50,16 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        // Hüppamine
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        // Hüppamine (sh double jump)
+        if (Input.GetButtonDown("Jump") && jumpCount < maxJumps)
         {
+            //Nullime vertikaalse kiiruse enne teist hüpet → resetib kukkumise
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+
+            // Rakendame hüppe jõu
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+            jumpCount++;
         }
 
         // Salvestame hetke vertikaalkiiruse kukkumise kontrolliks
@@ -62,8 +73,10 @@ public class PlayerController : MonoBehaviour
         {
             if (contact.normal.y > 0.5f)
             {
-                // 🟢 Esmalt märgime grounded ära
+                // Esmalt märgime grounded ära
                 isGrounded = true;
+
+                jumpCount = 0;
 
                 // 🔻 Alles nüüd kontrollime kukkumiskiirust
                 if (fallVelocity < lethalFallThreshold)
@@ -103,7 +116,7 @@ public class PlayerController : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log($"Player died)");
+        Debug.Log($"Player died");
         transform.position = respawnPoint.position;
         currentHealth = maxHealth;
         Camera.main.transform.position = new Vector3(
