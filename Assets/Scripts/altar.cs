@@ -5,9 +5,9 @@ public class altar : MonoBehaviour
 {
     [SerializeField] private string sceneToLoad;  // Set this in the Inspector
 
-    private void OnCollisionEnter2D(Collision collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(sceneToLoad);
         }
