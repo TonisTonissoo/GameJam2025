@@ -85,13 +85,13 @@ public class PlayerController : MonoBehaviour
 
     private void TakeFallDamage()
     {
-        Debug.Log($"Player took fall damage (velocity: {fallVelocity})");
+        Debug.Log($"Player took fall damage");
         TakeDamage(1);
     }
 
     private void Die()
     {
-        Debug.Log($"Player died from fall (velocity: {fallVelocity})");
+        Debug.Log($"Player died)");
         transform.position = respawnPoint.position;
         currentHealth = maxHealth;
         Camera.main.transform.position = new Vector3(
