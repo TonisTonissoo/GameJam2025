@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -27,6 +28,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform livesPanel;   // UI kontainer südameikoonidele
     [SerializeField] private GameObject heartPrefab;
 
+    [Header("Coin Settings")]
+    [SerializeField] private int coins = 0;
+    [SerializeField] private TMP_Text coinText;
+
 
     private List<GameObject> heartIcons = new List<GameObject>();
 
@@ -42,6 +47,12 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
 
         SetupHeartsUI();
+    }
+    public void AddCoins(int amount)
+    {
+        coins += amount;
+        Debug.Log($"Player picked up {amount} coin(s). Total: {coins}");
+        coinText.text = "Coins: " + coins;
     }
 
     private void SetupHeartsUI()
