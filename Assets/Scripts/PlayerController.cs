@@ -21,11 +21,13 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private float fallVelocity;
+    private Animator anim;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -33,6 +35,15 @@ public class PlayerController : MonoBehaviour
         // Horisontaalne liikumine
         float move = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
+
+        if (move > 0.01f)
+        {
+            transform.localScale = Vector3.one;
+        }
+        else if (move < -0.01f)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
 
         // Hüppamine
         if (Input.GetButtonDown("Jump") && isGrounded)
@@ -42,6 +53,7 @@ public class PlayerController : MonoBehaviour
 
         // Salvestame hetke vertikaalkiiruse kukkumise kontrolliks
         fallVelocity = rb.linearVelocity.y;
+        anim.SetBool("walk", move != 0);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
